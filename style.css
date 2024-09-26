@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    color: #008080;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 150px; /* تعديل الحجم هنا */
+    height: auto;
+    margin: 10px 0;
+}
+
+h2 {
+    color: #555;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.class-btn {
+    background-color: #00a5a5;
+    color: #ffffff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.class-btn:hover {
+    background-color: #008080;
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}
